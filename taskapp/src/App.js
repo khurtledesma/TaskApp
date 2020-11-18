@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Redirect, Route } from "react-router-dom";
 import NavBar from "./components/navbar";
-import ToDo from "./components/todos"
+import ToDo from "./components/todo"
 import Contact from "./components/contact"
 
 
