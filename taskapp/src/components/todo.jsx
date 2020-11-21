@@ -1,7 +1,13 @@
 import React from "react";
 
-const ToDo = () => {
-    return <h2>Main task here</h2>
-}
+function ToDo () {
+    return (
+        <div>
+            <input type="checkbox" />
+            <li>{ToDo.task}</li>
+            <button>Hello</button>
+        </div>
+    )
 
+}
 export default ToDo;

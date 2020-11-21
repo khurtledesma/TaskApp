@@ -4,7 +4,7 @@ import NavElement from "./navlink.jsx";
 const NavBar = () => {
   return (
     <div>
-      <NavElement to="/todos" label="To-Do" />
+      <NavElement to="/todo" label="To-Do" />
       <NavElement to="/contact" label="Contact" />
     </div>
   );

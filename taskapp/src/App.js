@@ -1,17 +1,18 @@
 import React from "react";
 import { BrowserRouter, Switch, Redirect, Route } from "react-router-dom";
 import NavBar from "./components/navbar";
-import ToDo from "./components/todo"
+import TodoApp from "./components/todoApp"
 import Contact from "./components/contact"
 
 
-const App = () => {
+function App() {
+
     return (
         <BrowserRouter>
             <NavBar/>
             <Switch>
                 <Redirect exact path="/" to="/todo" />
-                <Route path="/todo" component={ToDo} />
+                <Route path="/todo" component={TodoApp} />
                 <Route path="/contact" component={Contact} />
                 <Route component={Error} />
             </Switch>
@@ -20,4 +21,3 @@ const App = () => {
   };
   
   export default App;
-  
