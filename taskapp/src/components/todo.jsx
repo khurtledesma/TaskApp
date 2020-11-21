@@ -1,11 +1,12 @@
 import React from "react";
 
-function ToDo () {
+function ToDo ({ todo }) {
     return (
         <div>
             <input type="checkbox" />
-            <li>{ToDo.task}</li>
-            <button>Hello</button>
+            <li>
+                {todo.task}
+            </li>
         </div>
     )
 
