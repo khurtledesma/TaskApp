@@ -3,10 +3,11 @@ import React from "react";
 function ToDo ({ todo }) {
     return (
         <div>
-            <input type="checkbox" />
-            <li>
+            <li class="ToDo-List">
                 {todo.task}
+                <input type="checkbox" />    
             </li>
+            
         </div>
     )
 

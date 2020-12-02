@@ -1,3 +1,21 @@
+.ToDo-List {
+  display: flex;
+}
+
+.blue-bg {
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +54,4 @@
     transform: rotate(360deg);
   }
 }
+
