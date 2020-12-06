@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {v4 as uuid} from "uuid";
 import "../App.css";
+import '../css/bootstrap.min.css';
 
 function TodoForm({ addTodo }) {
 
@@ -35,7 +36,7 @@ function TodoForm({ addTodo }) {
         value={todo.task}
         onChange={handleTaskInputChange}       
       />
-      <button type="submit">Add to list</button>
+      <button class="btn btn-primary" type="submit">Add to list</button>
     </form>
   )
 }

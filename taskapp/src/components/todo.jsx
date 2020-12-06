@@ -1,10 +1,11 @@
 import React from "react";
+import '../css/bootstrap.min.css';
 
 function ToDo ({ todo }) {
     return (
         <div className="mainListItem">
             {todo.task}
-            <button type="button">Complete</button>
+            <button class="btn btn-success" type="button" onclick>Complete</button>
         </div>
     )
 }
