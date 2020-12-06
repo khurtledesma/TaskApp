@@ -14,7 +14,7 @@ function ToDo ({ todo, completed, removeTodo}) {
     return (
         <div className="mainListItem">
             {todo.task}
-            <button class="btn btn-success" onClick={handleRemoveClick} type="button">Complete</button>
+            <button class="btn btn-success" onClick={handleRemoveClick} type="button">Remove</button>
         </div>
     )
 }

@@ -50,7 +50,6 @@ function TodoApp () {
             <p>Add items into the box below and click 'add to list'. Click on the 'complete' button when you have added into your cart and it will remove it from your list.</p>
             <TodoForm addTodo={addTodo} />
             <TodoList todos={todos} 
-            completed={completed} 
             removeTodo={removeTodo}
             />
         </div>
