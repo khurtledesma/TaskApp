@@ -2,14 +2,10 @@ import React from "react";
 
 function ToDo ({ todo }) {
     return (
-        <div>
-            <li class="ToDo-List">
-                {todo.task}
-                <input type="checkbox" />    
-            </li>
-            
+        <div className="mainListItem">
+            {todo.task}
+            <button type="button" onclick="removeitem()">Complete</button>
         </div>
     )
-
 }
 export default ToDo;

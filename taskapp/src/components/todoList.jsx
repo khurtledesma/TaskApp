@@ -4,11 +4,13 @@ import "../App.css";
 
 function Todolist ({ todos }) {
     return (
-        <ul>
+        <div>
             {todos.map(todo => (
-                <Todo key={todo} todo={todo} />
+                <div>
+                    <Todo key={todo} todo={todo} />
+                </div>
             ))}
-        </ul>
+        </div>
     )
 }
 

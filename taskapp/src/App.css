@@ -3,15 +3,30 @@
 body {
   background-color:grey;
 }
-.ToDo-List {
-  display: flex;
+
+ul {
+  list-style-type: none;
 }
 
+.formInput{
+  width: 100%;
+}
 .mainApp {
   text-align: center;
-  border: 1px black solid;
-  margin: 5% 25%;
+  margin-top: 15px;
+  margin-left:25%;
+  margin-right:25%;
   padding:15px;
+}
+
+.mainListItem {
+  padding-left: 10px;
+  background-color: white;
+  margin-top:10px;
+  margin-bottom:10px;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
 }
 
 /*Included with create-react-app */
