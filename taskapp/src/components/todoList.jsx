@@ -4,7 +4,7 @@ import "../App.css";
 
 function Todolist ({ todos }) {
     return (
-        <div>
+        <div class="mainList">
             {todos.map(todo => (
                 <div>
                     <Todo key={todo} todo={todo} />

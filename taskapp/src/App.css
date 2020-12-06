@@ -2,15 +2,17 @@
 /* Custom CSS */
 body {
   background-color:grey;
+
 }
 
 ul {
   list-style-type: none;
 }
-
-.formInput{
-  width: 100%;
+.active-link {
+  color: "white";
+  font-weight: "bold"
 }
+
 .mainApp {
   text-align: center;
   margin-top: 15px;
@@ -18,16 +20,39 @@ ul {
   margin-right:25%;
   padding:15px;
 }
-
+.mainList {
+  margin-top: 40px;
+}
 .mainListItem {
+  color: black;
   padding-left: 10px;
+  font-size: 24px;
   background-color: white;
+  border-radius: 8px;
   margin-top:10px;
   margin-bottom:10px;
   width: 100%;
   display:flex;
   justify-content: space-between;
 }
+
+.textbox {
+  width: 75%;
+  padding: 8px;
+  font-size: 16px;
+  border-width: 2px;
+  border-color: #CCCCCC;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: outset;
+  border-radius: 8px;
+  box-shadow: 3px 3px 9px rgba(66,66,66,.71);
+  text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+.css-input:focus {
+  outline:none;
+}
+
 
 /*Included with create-react-app */
 

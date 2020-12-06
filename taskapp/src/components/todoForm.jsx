@@ -28,6 +28,7 @@ function TodoForm({ addTodo }) {
   return (
     <form className="formInput" onSubmit={handleSubmit}>
       <input
+        className="textbox"
         label="Task"
         type="text"
         name="task"

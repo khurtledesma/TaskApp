@@ -4,7 +4,7 @@ function ToDo ({ todo }) {
     return (
         <div className="mainListItem">
             {todo.task}
-            <button type="button" onclick="removeitem()">Complete</button>
+            <button type="button">Complete</button>
         </div>
     )
 }
