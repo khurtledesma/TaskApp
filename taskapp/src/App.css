@@ -1,20 +1,20 @@
+
+/* Custom CSS */
+body {
+  background-color:grey;
+}
 .ToDo-List {
   display: flex;
 }
 
-.blue-bg {
-  background-color: blue;
+.mainApp {
+  text-align: center;
+  border: 1px black solid;
+  margin: 5% 25%;
+  padding:15px;
 }
 
-
-
-
-
-
-
-
-
-
+/*Included with create-react-app */
 
 .App {
   text-align: center;
