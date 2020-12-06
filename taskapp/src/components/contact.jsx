@@ -5,21 +5,18 @@ const Contact = () => {
     <div class="mainApp">
         <h1>Contact Us!</h1>
         <form>
-            <fieldset>
-                <label for="name">Name:</label>
-                <input type="text" name="name"></input>
+            <fieldset class="form-group">
+                <input type="text" class="form-control" placeholder="Name:" name="name"></input>
             </fieldset>
 
-            <fieldset>
-                <label for="email">Email:</label>
-                <input type="email" name="email"></input>
+            <fieldset class="form-group">
+                <input type="email" class="form-control" placeholder="Email:"  name="email"></input>
             </fieldset>
 
-            <fieldset>
-                <label for="message">Message:</label>
-                <input type="text" name="message"></input>
+            <fieldset class="form-group">
+                <input type="text" class="form-control" placeholder="Enter message here" name="message"></input>
             </fieldset>
-            <button type="submit"> Send! </button>
+            <button type="submit" class="btn btn-block btn-success"> Send! </button>
         </form>
     </div>
     
