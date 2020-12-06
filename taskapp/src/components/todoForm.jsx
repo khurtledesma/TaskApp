@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {v4 as uuid} from "uuid";
+import {v4 as uuidv4} from "uuid";
 import "../App.css";
 import '../css/bootstrap.min.css';
 
@@ -21,7 +21,7 @@ function TodoForm({ addTodo }) {
     e.preventDefault(); // prevents browser refresh
     // trim() gets rid of string whitespace
     if (todo.task.trim()) {
-      addTodo({ ...todo, id: uuid.v4});
+      addTodo({ ...todo, id: uuidv4()});
       setTodo({ ...todo, task: "" });
     }
   }

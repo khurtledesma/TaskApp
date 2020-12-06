@@ -7,7 +7,8 @@ function Todolist ({ todos, completed, removeTodo }) {
         <div class="mainList">
             {todos.map(todo => (
                 <div>
-                    <Todo key={todo}
+                    <Todo 
+                    key={todo.id}
                      todo={todo}
                      completed={completed}
                      removeTodo={removeTodo}/>
