@@ -1,0 +1,3 @@
+1. As a user, I want to be able to quickly be able to delete any items from the list that I have already put in my cart.
+2. As a user, I want to have a straight forward UI that is simple to use.
+3. As a user, I want the application so save my list while I swap between links so that I don't have to input items in every time.
