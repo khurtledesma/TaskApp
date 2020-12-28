@@ -1,5 +1,9 @@
 
 /* Custom CSS */
+
+#messageInput {
+  line-height: 100px;
+}
 body {
   background-color:grey;
 }
