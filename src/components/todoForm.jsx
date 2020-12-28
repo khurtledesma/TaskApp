@@ -29,6 +29,7 @@ function TodoForm({ addTodo }) {
   return (
     <form className="formInput" onSubmit={handleSubmit}>
       <input
+        placeholder="What would you like to add?"
         className="textbox"
         label="Task"
         type="text"
@@ -36,7 +37,7 @@ function TodoForm({ addTodo }) {
         value={todo.task}
         onChange={handleTaskInputChange}       
       />
-      <button class="btn btn-primary" type="submit">Add to list</button>
+      <button class="btn btn-success" type="submit">Add to list</button>
     </form>
   )
 }

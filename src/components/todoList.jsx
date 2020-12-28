@@ -8,7 +8,7 @@ function Todolist ({ todos, completed, removeTodo }) {
             {todos.map(todo => (
                 <div>
                     <Todo 
-                    key={todo.id}
+                     key={todo.id}
                      todo={todo}
                      completed={completed}
                      removeTodo={removeTodo}/>

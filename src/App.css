@@ -2,7 +2,10 @@
 /* Custom CSS */
 body {
   background-color:grey;
+}
 
+.h1-title{
+  font-size: 40px;
 }
 
 ul {
