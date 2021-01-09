@@ -4,7 +4,7 @@ import "../App.css";
 
 function Todolist ({ todos, completed, removeTodo }) {
     return (
-        <div class="mainList">
+        <div className="mainList">
             {todos.map(todo => (
                 <div>
                     <Todo 

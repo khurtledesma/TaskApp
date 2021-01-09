@@ -37,7 +37,7 @@ function TodoForm({ addTodo }) {
         value={todo.task}
         onChange={handleTaskInputChange}       
       />
-      <button class="btn btn-success" type="submit">Add to list</button>
+      <button className="btn btn-success" type="submit">Add to list</button>
     </form>
   )
 }

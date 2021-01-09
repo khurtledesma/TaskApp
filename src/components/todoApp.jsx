@@ -46,7 +46,7 @@ function TodoApp () {
 
     return (
         <div className="mainApp">
-            <h1 class="">Shopping List</h1>
+            <h1>Shopping List</h1>
             <p>Add items into your list below</p>
             <TodoForm addTodo={addTodo} />
             <TodoList todos={todos} 
