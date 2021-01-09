@@ -4,7 +4,7 @@ const Contact = () => {
     return (
     <div class="mainApp">
         <h1>Contact Us!</h1>
-        <form>
+        <form method="POST" action="https://formspree.io/f/xjvadjzj">
             <fieldset class="form-group">
                 <input type="text" class="form-control" placeholder="Name" name="name"></input>
             </fieldset>
