@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Redirect, Route } from "react-router-dom";
+import { HashRouter, Switch, Redirect, Route } from "react-router-dom";
 import NavBar from "./components/navbar";
 import TodoApp from "./components/todoApp"
 import Contact from "./components/contact"
@@ -8,7 +8,7 @@ import Contact from "./components/contact"
 function App() {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <NavBar/>
             <Switch>
                 <Redirect exact path="/" to="/todo" />
@@ -16,7 +16,7 @@ function App() {
                 <Route path="/contact" component={Contact} />
                 <Route component={Error} />
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
   };
   
