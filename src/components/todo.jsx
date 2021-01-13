@@ -1,5 +1,4 @@
 import React from "react";
-import '../css/bootstrap.min.css';
 
 function ToDo ({ todo, completed, removeTodo}) {
 

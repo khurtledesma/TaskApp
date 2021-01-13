@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "./todo";
-import "../App.css";
+
 
 function Todolist ({ todos, completed, removeTodo }) {
     return (

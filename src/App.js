@@ -1,8 +1,8 @@
 import React from "react";
 import { HashRouter, Switch, Redirect, Route } from "react-router-dom";
 import NavBar from "./components/navbar";
-import TodoApp from "./components/todoApp"
-import Contact from "./components/contact"
+import TodoApp from "./components/todoApp";
+import Contact from "./components/contact";
 
 
 function App() {

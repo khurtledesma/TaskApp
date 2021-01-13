@@ -1,6 +1,5 @@
 import React from "react";
-import NavElement from "./navlink.jsx";
-import '../css/bootstrap.min.css'
+import NavElement from "./navelem.jsx";
 
 const NavBar = () => {
   return (

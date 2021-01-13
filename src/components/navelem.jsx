@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import '../css/bootstrap.min.css'
 
 const NavElement = (props) => {
   var activeStyle = {

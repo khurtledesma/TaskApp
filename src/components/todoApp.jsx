@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import TodoForm from "./todoForm";
 import TodoList from "./todoList";
-import "../App.css";
-import '../css/bootstrap.min.css'
 
 const LOCAL_STORAGE_KEY = "react-todo-list-todos";
 
