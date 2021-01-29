@@ -6,13 +6,11 @@ function Todolist ({ todos, completed, removeTodo }) {
     return (
         <div className="mainList">
             {todos.map(todo => (
-                <div>
-                    <Todo 
-                     key={todo.id}
-                     todo={todo}
-                     completed={completed}
-                     removeTodo={removeTodo}/>
-                </div>
+                <Todo 
+                    key={todo.id}
+                    todo={todo}
+                    completed={completed}
+                    removeTodo={removeTodo}/>
             ))}
         </div>
     )
