@@ -1,6 +1,7 @@
 import React from "react";
 
-function ToDo (todo, removeTodo) {
+function ToDo ({todo, removeTodo}) {
+
 
     function handleRemoveClick() {
         removeTodo(todo.id);
