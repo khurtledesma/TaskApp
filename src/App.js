@@ -14,7 +14,6 @@ function App() {
                 <Redirect exact path="/React" to="/todo" />
                 <Route path="/todo" component={TodoApp} />
                 <Route path="/contact" component={Contact} />
-                <Route component={Error} />
             </Switch>
         </HashRouter>
     );
