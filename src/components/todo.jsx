@@ -2,14 +2,9 @@ import React from "react";
 
 function ToDo ({ todo, completed, removeTodo}) {
 
-    function handlecheckboxClick() {
-        completed(todo.id);
-    } 
-
     function handleRemoveClick() {
         removeTodo(todo.id);
     }
-
     return (
         <div className="mainListItem">
             {todo.task}

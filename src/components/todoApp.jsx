@@ -23,21 +23,6 @@ function TodoApp () {
     function addTodo(todo) {
         setTodos ([todo, ...todos]);
     }
-
-    function completed (id) {
-        setTodos(
-            todos.map(todo=> {
-                if (todo.id ===id) {
-                    return {
-                        ...todo,
-                        completed: !todo.completed
-                    };
-                }
-                return todo;
-            })
-        );
-    }
-
     function removeTodo(id) {
         setTodos(todos.filter(todo => todo.id !==id));
     }
